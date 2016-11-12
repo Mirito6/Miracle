@@ -19,9 +19,9 @@ session_start();
     <body background="usil3.png">
         <div style="
     background-color: #58ACFA;
-    width: 30%;
+    width: 50%;
     margin-top: 10%;
-    margin-left: 35%;
+    margin-left: 25%;
     text-align: center;
     color: white; 
     font-family: arial; ">
