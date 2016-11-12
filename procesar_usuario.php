@@ -14,3 +14,10 @@ $password_hash = md5($password);
 #mysql_connect('localhost', 'root', '');
 #mysql_select_db('gamestore');
 $query = "INSERT INTO usuarios VALUES (NULL, '$info', '$email', '$password_hash')";
+
+#mysql_query($query);
+$db -> query($query);
+
+#Salida
+header('Location: resultado_usuario.php');
+?>
